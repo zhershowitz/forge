@@ -4,8 +4,8 @@
     "description": "A homebrew system wihtout classes",
     "authors": "Megan and Zach",
     "version": "0.0.1",
-    "minimumCoreVersion": "0.13.0",
-    "compatibleCoreVersion": "0.13.0",
+    "minimumCoreVersion": "0.13.351",
+    "compatibleCoreVersion": "0.13.351",
     "esmodules": [
         "forge.js"
     ],

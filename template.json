@@ -6,84 +6,10 @@
             "NPC"
         ],
 
-        "Player Character": {
+        "Player Character":  {
 
-            "race": 0,
-            "background": 0,
-            "homeregion": 0,
-            "alignment": 0,
-
-            "charDetails": {
-                "nickname": "",
-                "title": "",
-                "age": 0,
-                "height": 0,
-                "weight": 0,
-                "hairColo": "",
-                "eyeColo": "",
-                "alignment": "",
-                "family": "",
-                "appearance": "",
-                "background": "",
-                "goals": "",
-                "virtues": ["trait"],
-                "flaws": ["trait"]
-            },
-
-            "experience": {
-                "level": 1,
-                "earnedExp": 0,
-                "spentExp": 0,
-                "unspentExp": 0,
-                "proficiencyBonus": 0
-
-            },
-
-            "attributes": {
-                "strength": {
-                    "start": 0,
-                    "raised": 0,
-                    "bonus": 0
-                },
-                "dexterity": {
-                    "start": 0,
-                    "raised": 0,
-                    "bonus": 0
-                },
-                "constitution": {
-                    "start": 0,
-                    "raised": 0,
-                    "bonus": 0
-                },
-                "intelligence": {
-                    "start": 0,
-                    "raised": 0,
-                    "bonus": 0
-                },
-                "wisdom": {
-                    "start": 0,
-                    "raised": 0,
-                    "bonus": 0
-                },
-                "charisma": {
-                    "start": 0,
-                    "raised": 0,
-                    "bonus": 0
-            }
-            },
-
-            "baseValues": {
-                "health": {
-                    "value": 0,
-                    "max": 0,
-                    "reg": 0,
-                    "sustained": 0
-                },
-                "speed": 0,
-                "initiative": 0
-            }
         }
-    },
+        },
 
     "Item" :{
         "types": [
@@ -93,11 +19,30 @@
             "tool",
             "loot"
         ],
-        "weapon": {
-           "attackWith": "",
-            "damage": 0,
-            "damageType": "",
-            "properties": ["property"]
+        "templates": {
+            "itemDescriptions" : {
+                "description": ""
+            }
+        },
+        "weapon":  {
+            "templates" : ["itemDescriptions"]
+
+        },
+        "armor":  {
+            "templates" : ["itemDescriptions"]
+            
+        },
+        "consumable":  {
+            "templates" : ["itemDescriptions"]
+            
+        },
+        "tool":  {
+            "templates" : ["itemDescriptions"]
+            
+        },
+        "loot":  {
+            "templates" : ["itemDescriptions"]
+            
+        }
         }
     }
-}

@@ -24,6 +24,5 @@
         "distance": 5,
         "units": "ft"
     },
-    "primaryTokenAttributes": "hp",
-    "secondaryTokenAttributes": "ac"
+    "primaryTokenAttributes": "hp"
 }
